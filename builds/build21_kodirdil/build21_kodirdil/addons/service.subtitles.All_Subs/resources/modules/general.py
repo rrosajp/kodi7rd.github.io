@@ -340,7 +340,7 @@ def manual_search_for_imdb_id(video_data):
     
     log.warning(f"DEBUG | get_video_data | manual_search_for_imdb_id | Searching manually for IMDb ID | media_type={media_type} | original_title={original_title} | year={year}")
     
-    TMDB_API_KEY = 'b370b60447737762ca38457bd77579b3'
+    TMDB_API_KEY = '6dcadb9d9188419a2fd73391bd3cdd70'
     TMDB_API_BASE_URL = 'https://api.themoviedb.org/3/'
 
     params = {
